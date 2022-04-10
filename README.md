@@ -39,6 +39,14 @@ termios.hのcfmakeraw()を呼び出すか、この呼び出しをシミュレー
 pip install pyserial pytz
 ```
 
+## ポートの指定
+`tx.py`や`rx.py`の`port_name`の`XX`をsocatで生成された仮想ポートに書き換える。
+
+```python
+# open port
+port_name = '/dev/pts/XX'
+```
+
 ## 実行
 ```
 python rx.py
