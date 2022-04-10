@@ -1,5 +1,5 @@
 .vscode
-src/temp/
+src/temp/*
 __pycache__/
 *.py[cod]
 *$py.class
